@@ -14,8 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 1.6;
     justify-content: center;
+    font-size: 0.9375rem;
 }
 
 .card {
@@ -28,16 +28,14 @@ body {
 
 }
 
-p {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+h1, p {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
-p:first-of-type {
+h1 {
     color: hsl(218, 44%, 22%);
     font-weight: 700;
-    letter-spacing: 1.5;
-    font-size: 1.25rem;
 }
 
 img {
@@ -56,6 +54,6 @@ img {
 
 @media (min-width: 920px) {
     .card {
-        width: 22%;
+        width: 30%;
     }
 }
